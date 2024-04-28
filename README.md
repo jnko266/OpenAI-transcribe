@@ -3,5 +3,6 @@ This is a simple Python script that utilises the OpenAI API to transcribe audio 
 To make this script work, you need to have an OpenAI API key saved in the .env file (example is in [env](env) file).  
 Example use:
 ```bash
+pip3 install -r requirements.txt
 python3 transcribe.py --file my_audio.mp3
 ```
