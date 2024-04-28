@@ -1,0 +1,8 @@
+# Ignore .env file with secrets
+.env
+# Ignore all files in recordings/ except .gitkeep
+recordings/*
+!recordings/.gitkeep
+# Ignore all files in transcriptions/ except .gitkeep
+transcriptions/*
+!transcriptions/.gitkeep
