@@ -4,5 +4,5 @@ To make this script work, you need to have an OpenAI API key saved in the `.env`
 Example use:
 ```bash
 pip3 install -r requirements.txt
-python3 transcribe.py --file my_audio.mp3
+./transcribe.py --file my_audio.mp3 # This needs to be placed in the recordings directory, but should be only the file name (excluding the recordings directory path)
 ```
